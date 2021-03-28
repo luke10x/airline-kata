@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+
+  fcc:
+    image: node
+    volumes:
+      - "./ticket-service:/mnt/ticket-service"
+    working_dir: "/mnt/ticket-service"
+    entrypoint: "/bin/bash -c"
+    command:
+      - |
+        tail -f /dev/null
+    ports:
+      - 12288:12288

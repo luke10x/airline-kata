@@ -1,0 +1,41 @@
+{
+	"Expoted Class": {
+		"scope": "javascript,typescript",
+		"prefix": "export class",
+		"body": [
+			"export class $1 {}",
+			"$0"
+		],
+		"description": "Exported class"
+	},
+	"Private Constructor": {
+		"scope": "typescript",
+		"prefix": "private constructor",
+		"body": [
+			"private constructor(private $1: $2) {}",
+			"$0"
+		],
+		"description": "Expect not to throw"
+	},
+	"Describe It": {
+		"scope": "javascript,typescript",
+		"prefix": "describe it",
+		"body": [
+			"describe('$1', () => {",
+			"  it('$2', () => {",
+			"    $3",
+			"  });",
+			"});",
+			
+		],
+		"description": "Describe jest spec"
+	},
+	"Expect Not Throw": {
+		"scope": "typescript",
+		"prefix": "expect not throw",
+		"body": [
+			"expect((): $1 => $2).not.toThrow()",
+		],
+		"description": "Expect not to throw"
+	}
+}

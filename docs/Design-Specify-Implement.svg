@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1459"
+   height="909"
+   viewBox="230 -50 1459 909"
+   version="1.1"
+   id="svg255"
+   sodipodi:docname="Design-Specify-Implement.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata259">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1300"
+     inkscape:window-height="651"
+     id="namedview257"
+     showgrid="false"
+     inkscape:zoom="0.39408631"
+     inkscape:cx="741.26737"
+     inkscape:cy="474.75317"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg255" />
+  <defs
+     id="defs5">
+    <pattern
+       id="poweredby_logo"
+       patternUnits="objectBoundingBox"
+       patternContentUnits="objectBoundingBox"
+       preserveAspectRatio="none"
+       width="1"
+       height="1">
+      <image
+         x="0"
+         y="0"
+         preserveAspectRatio="none"
+         width="1"
+         height="1"
+         xlink:href="data:image/png;base64,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"
+         id="image2" />
+    </pattern>
+  </defs>
+  <rect
+     x="230"
+     y="-110"
+     width="1459"
+     height="969"
+     id="rect7"
+     style="fill:#ffffff" />
+  <polygon
+     id="s80611054"
+     points="260,839.99976 260,-20 1659.999,-20 1659.999,839.99976 "
+     style="fill:#f9fbe7;stroke:#000000;stroke-width:2"
+     transform="translate(0,-10.99976)">
+    <g
+       id="t80611054">
+      <text
+         xml:space="preserve"
+         x="959.9995"
+         y="415.49597"
+         font-family="Sans,Helvetica"
+         fill="rgb(0,0,0)"
+         font-size="14"
+         id="text9" />
+    </g>
+  </polygon>
+  <polygon
+     id="s199862159"
+     points="860,819.9995 860,360 1639.9993,360 1639.9993,819.9995 "
+     style="fill:#f4ff81;stroke:#000000;stroke-width:2"
+     transform="translate(0,-10.99976)">
+    <g
+       id="t199862159">
+      <text
+         xml:space="preserve"
+         x="1249.9996"
+         y="595.49585"
+         font-family="Sans,Helvetica"
+         fill="rgb(0,0,0)"
+         font-size="14"
+         id="text13" />
+    </g>
+  </polygon>
+  <g
+     id="g25"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s186915356"
+       points="390.00003,180 300.00006,230 389.99988,279.99997 480.00006,230 "
+       style="fill:#ff9800;stroke:#000000;stroke-width:2" />
+    <g
+       id="t186915356">
+      <text
+         xml:space="preserve"
+         x="352.00006"
+         y="216.916"
+         font-size="14"
+         id="text18"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Are any new</text>
+      <text
+         xml:space="preserve"
+         x="343.00006"
+         y="235.49608"
+         font-size="14"
+         id="text20"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">param types to</text>
+      <text
+         xml:space="preserve"
+         x="367.50006"
+         y="254.07616"
+         font-size="14"
+         id="text22"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">define?</text>
+    </g>
+  </g>
+  <g
+     id="g33"
+     transform="translate(0,-10.99976)">
+    <circle
+       id="s201053733"
+       cx="390.00006"
+       cy="50"
+       r="50"
+       style="fill:#424242;stroke:#000000;stroke-width:2" />
+    <g
+       id="t201053733">
+      <text
+         xml:space="preserve"
+         x="357.00006"
+         y="46.206055"
+         font-size="14"
+         id="text28"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#ffffff">Implement</text>
+      <text
+         xml:space="preserve"
+         x="362.00006"
+         y="64.786133"
+         font-size="14"
+         id="text30"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#ffffff">new step</text>
+    </g>
+  </g>
+  <g
+     id="g41"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s186098682"
+       points="539.9994,279.99997 539.9994,180.00002 759.9994,180.00002 759.99927,279.99954 "
+       style="fill:#80d8ff;stroke:#000000;stroke-width:2" />
+    <g
+       id="t186098682">
+      <text
+         xml:space="preserve"
+         x="565.49939"
+         y="226.20605"
+         font-size="14"
+         id="text36"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Define new parameter type,</text>
+      <text
+         xml:space="preserve"
+         x="564.49939"
+         y="244.78613"
+         font-size="14"
+         id="text38"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">using static factory method</text>
+    </g>
+  </g>
+  <g
+     id="g49"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s174271915"
+       points="280,439.99976 280,340 500,340 499.99976,440 "
+       style="fill:#80d8ff;stroke:#000000;stroke-width:2" />
+    <g
+       id="t174271915">
+      <text
+         xml:space="preserve"
+         x="332"
+         y="386.20605"
+         font-size="14"
+         id="text44"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Express the step in</text>
+      <text
+         xml:space="preserve"
+         x="330.5"
+         y="404.78613"
+         font-size="14"
+         id="text46"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Domain Layer code</text>
+    </g>
+  </g>
+  <g
+     id="g23510024"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s91598025"
+       points="840,280 840,180 1060,180 1060,280 "
+       style="fill:#f4ff81;stroke:#000000;stroke-width:2" />
+    <path
+       id="s171311054"
+       d="m 861.99927,180 v 99.99994"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s71491311"
+       d="M 1037.9994,180 V 280"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t23510024">
+      <text
+         xml:space="preserve"
+         x="886.99933"
+         y="226.20605"
+         font-size="14"
+         id="text54"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Specify &amp; Implement</text>
+      <text
+         xml:space="preserve"
+         x="877.99933"
+         y="244.78613"
+         font-size="14"
+         id="text56"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Building Block behavior</text>
+    </g>
+  </g>
+  <g
+     id="g68"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s205041569"
+       points="389.99985,520.0001 299.9999,570.0001 389.99973,620.0001 479.9999,570.0001 "
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t205041569">
+      <text
+         xml:space="preserve"
+         x="351.99991"
+         y="556.91614"
+         font-size="14"
+         id="text61"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Are any new</text>
+      <text
+         xml:space="preserve"
+         x="342.99991"
+         y="575.49622"
+         font-size="14"
+         id="text63"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Building Blocks</text>
+      <text
+         xml:space="preserve"
+         x="356.49991"
+         y="594.07629"
+         font-size="14"
+         id="text65"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">to specify?</text>
+    </g>
+  </g>
+  <g
+     id="g74"
+     transform="translate(0,-10.99976)">
+    <circle
+       id="s19662278"
+       cx="390"
+       cy="730"
+       r="50"
+       style="fill:#424242;stroke:#000000;stroke-width:2" />
+    <g
+       id="t19662278">
+      <text
+         xml:space="preserve"
+         x="352.5"
+         y="735.49609"
+         font-size="14"
+         id="text71"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#ffffff">Step is done</text>
+    </g>
+  </g>
+  <g
+     id="g111475079"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s205516284"
+       points="540,620 540,520 760,520 760,620 "
+       style="fill:#f4ff81;stroke:#000000;stroke-width:2" />
+    <path
+       id="s245582981"
+       d="M 562.0001,520 V 620"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s117996299"
+       d="m 738,520 2.4e-4,100"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t111475079">
+      <text
+         xml:space="preserve"
+         x="587.00018"
+         y="566.20605"
+         font-size="14"
+         id="text79"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Specify &amp; Implement</text>
+      <text
+         xml:space="preserve"
+         x="578.00018"
+         y="584.78613"
+         font-size="14"
+         id="text81"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Building Block behavior</text>
+    </g>
+  </g>
+  <g
+     id="g89"
+     transform="translate(0,-10.99976)">
+    <circle
+       id="s229609652"
+       cx="990"
+       cy="430.00003"
+       r="30"
+       style="fill:#424242;stroke:#000000;stroke-width:2" />
+    <g
+       id="t229609652">
+      <text
+         xml:space="preserve"
+         x="974.5"
+         y="435.49612"
+         font-size="14"
+         id="text86"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#ffffff">Start</text>
+    </g>
+  </g>
+  <g
+     id="g95"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s17802461"
+       points="1139.9993,480.00006 1139.9993,379.99994 1359.9993,379.99994 1359.9983,480.00006 "
+       style="fill:#e53935;stroke:#000000;stroke-width:2" />
+    <g
+       id="t17802461">
+      <text
+         xml:space="preserve"
+         x="1194.9993"
+         y="435.49609"
+         font-size="14"
+         id="text92"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Specify behaviour</text>
+    </g>
+  </g>
+  <g
+     id="g101"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s131250258"
+       points="1139.9993,639.99976 1139.9993,539.99963 1359.9995,539.99963 1359.9995,639.99976 "
+       style="fill:#00c853;stroke:#000000;stroke-width:2" />
+    <g
+       id="t131250258">
+      <text
+         xml:space="preserve"
+         x="1188.9994"
+         y="595.49579"
+         font-size="14"
+         id="text98"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Implement changes</text>
+    </g>
+  </g>
+  <g
+     id="g111"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s172861219"
+       points="389.99994,520 300,570 389.99982,620 480,570 "
+       style="fill:#ff9800;stroke:#000000;stroke-width:2" />
+    <g
+       id="t172861219">
+      <text
+         xml:space="preserve"
+         x="352"
+         y="556.91602"
+         font-size="14"
+         id="text104"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Are any new</text>
+      <text
+         xml:space="preserve"
+         x="343"
+         y="575.49609"
+         font-size="14"
+         id="text106"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Building Blocks</text>
+      <text
+         xml:space="preserve"
+         x="356.5"
+         y="594.07617"
+         font-size="14"
+         id="text108"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">to specify?</text>
+    </g>
+  </g>
+  <g
+     id="g121"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s68092960"
+       points="1249.9993,699.9995 1159.9993,749.9999 1249.999,799.9995 1339.9993,749.9999 "
+       style="fill:#ff9800;stroke:#000000;stroke-width:2" />
+    <g
+       id="t68092960">
+      <text
+         xml:space="preserve"
+         x="1211.9993"
+         y="736.91553"
+         font-size="14"
+         id="text114"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Are any new</text>
+      <text
+         xml:space="preserve"
+         x="1202.9993"
+         y="755.49561"
+         font-size="14"
+         id="text116"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Building Blocks</text>
+      <text
+         xml:space="preserve"
+         x="1216.4993"
+         y="774.07568"
+         font-size="14"
+         id="text118"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">to specify?</text>
+    </g>
+  </g>
+  <g
+     id="g131"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s241611225"
+       points="880.0001,639.99976 880.0001,539.99963 1100,539.99963 1100,639.99976 "
+       style="fill:#bdbdbd;stroke:#000000;stroke-width:2" />
+    <g
+       id="t241611225">
+      <text
+         xml:space="preserve"
+         x="900.00006"
+         y="576.91571"
+         font-size="14"
+         id="text124"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Add spec to TODO stack, and</text>
+      <text
+         xml:space="preserve"
+         x="885.50006"
+         y="595.49579"
+         font-size="14"
+         id="text126"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">start again with new not specified</text>
+      <text
+         xml:space="preserve"
+         x="947.50006"
+         y="614.07587"
+         font-size="14"
+         id="text128"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">building block</text>
+    </g>
+  </g>
+  <g
+     id="g137"
+     transform="translate(0,-10.99976)">
+    <circle
+       id="s46139294"
+       cx="1510"
+       cy="430"
+       r="30"
+       style="fill:#424242;stroke:#000000;stroke-width:2" />
+    <g
+       id="t46139294">
+      <text
+         xml:space="preserve"
+         x="1498"
+         y="435.49609"
+         font-size="14"
+         id="text134"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#ffffff">End</text>
+    </g>
+  </g>
+  <g
+     id="g143"
+     transform="translate(0,-10.99976)">
+    <polygon
+       id="s4821631"
+       points="1399.9993,639.99976 1399.9993,539.99963 1619.9995,539.99963 1619.9995,639.99976 "
+       style="fill:#bdbdbd;stroke:#000000;stroke-width:2" />
+    <g
+       id="t4821631">
+      <text
+         xml:space="preserve"
+         x="1455.4994"
+         y="595.49579"
+         font-size="14"
+         id="text140"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Clear TODO stack</text>
+    </g>
+  </g>
+  <g
+     id="la120603212"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s120603212"
+       d="M 480.00006,230 H 539.9994"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s76505567"
+       d="M 530.8213,237.7306 539.9994,230 530.8213,222.26938"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t120603212">
+      <text
+         xml:space="preserve"
+         x="498.99973"
+         y="222.20605"
+         font-size="14"
+         id="text147"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Yes</text>
+    </g>
+  </g>
+  <g
+     id="la109548181"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s109548181"
+       d="M 389.99988,279.99997 390,340"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s39374380"
+       d="M 382.26938,330.8219 390,340 l 7.7306,-9.17813"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t109548181">
+      <text
+         xml:space="preserve"
+         x="393.99994"
+         y="315.49609"
+         font-size="14"
+         id="text153"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">No</text>
+    </g>
+  </g>
+  <g
+     id="la178323370"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s178323370"
+       d="M 390.00006,100 390,180"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s11100405"
+       d="M 382.2694,170.82188 390,180 l 7.73062,-9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t178323370">
+      <text
+         xml:space="preserve"
+         x="394.00003"
+         y="145.49609"
+         font-size="14"
+         id="text159"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la200202139"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s200202139"
+       d="m 759.9994,229.99982 80,2e-4"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s103227018"
+       d="m 830.8213,237.7306 9.1781,-7.73058 -9.1781,-7.73064"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t200202139">
+      <text
+         xml:space="preserve"
+         x="799.99939"
+         y="222.20596"
+         font-size="14"
+         id="text165"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la121976632"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s121976632"
+       d="M 1059.9994,230.00002 1099.9998,230 V 140 H 390.00006 l -3e-5,40"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s45235451"
+       d="m 382.26944,170.82188 7.73059,9.17812 7.73062,-9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t121976632">
+      <text
+         xml:space="preserve"
+         x="794.00012"
+         y="132.20605"
+         font-size="14"
+         id="text171"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la211534609"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s211534609"
+       d="m 389.99988,439.99988 -3e-5,80.00022"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s161128728"
+       d="m 382.26923,510.82202 7.73062,9.17808 7.73062,-9.17808"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t211534609">
+      <text
+         xml:space="preserve"
+         x="393.99988"
+         y="485.49609"
+         font-size="14"
+         id="text177"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la65498230"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s65498230"
+       d="M 389.99973,620.0001 390,680"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s75241329"
+       d="M 382.26935,670.8219 390,680 l 7.73056,-9.17816"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t65498230">
+      <text
+         xml:space="preserve"
+         x="393.99988"
+         y="655.49615"
+         font-size="14"
+         id="text183"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">No</text>
+    </g>
+  </g>
+  <g
+     id="la98128503"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s98128503"
+       d="M 479.9999,570.0001 540,570"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s174102870"
+       d="M 530.8219,577.73065 540,570 l -9.1781,-7.7306"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t98128503">
+      <text
+         xml:space="preserve"
+         x="498.99994"
+         y="562.20612"
+         font-size="14"
+         id="text189"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Yes</text>
+    </g>
+  </g>
+  <g
+     id="la62033636"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s62033636"
+       d="m 760,570 h 40 V 480 H 389.99985 v 40.0001"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t62033636">
+      <text
+         xml:space="preserve"
+         x="643.99988"
+         y="472.20605"
+         font-size="14"
+         id="text194"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la48791373"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s48791373"
+       d="m 1020,430 h 119.9993"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s140357079"
+       d="m 1130.8212,437.73062 9.1781,-7.73062 -9.1781,-7.73062"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t48791373">
+      <text
+         xml:space="preserve"
+         x="1079.9996"
+         y="422.20605"
+         font-size="14"
+         id="text200"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la106289666"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s106289666"
+       d="m 1249.9988,480.00006 6e-4,59.99957"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s103069380"
+       d="m 1242.2687,530.8216 7.7307,9.17803 7.7305,-9.17813"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t106289666">
+      <text
+         xml:space="preserve"
+         x="1253.999"
+         y="515.49597"
+         font-size="14"
+         id="text206"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la176594707"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s176594707"
+       d="m 1249.9994,639.99976 -10e-5,59.99974"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s216644013"
+       d="m 1242.2687,690.8214 7.7306,9.1781 7.7306,-9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t176594707">
+      <text
+         xml:space="preserve"
+         x="1253.9993"
+         y="675.49573"
+         font-size="14"
+         id="text212"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la192656720"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s192656720"
+       d="M 1159.9993,749.9999 H 989.99976 V 639.99976"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s249885922"
+       d="m 997.73035,649.17786 -7.73059,-9.1781 -7.73059,9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t192656720">
+      <text
+         xml:space="preserve"
+         x="993.99945"
+         y="768.78601"
+         font-size="14"
+         id="text218"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">Yes</text>
+    </g>
+  </g>
+  <g
+     id="la13288265"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s13288265"
+       d="M 990.00006,539.99963 990,459.99997"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s48582771"
+       d="m 997.7306,469.17807 -7.7306,-9.1781 -7.7306,9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t13288265">
+      <text
+         xml:space="preserve"
+         x="994.00006"
+         y="505.49591"
+         font-size="14"
+         id="text224"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la21730382"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s21730382"
+       d="M 1509.9994,539.99963 1510,460"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s102267696"
+       d="M 1517.7306,469.17816 1510,460 l -7.7307,9.17804"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t21730382">
+      <text
+         xml:space="preserve"
+         x="1513.9996"
+         y="505.49591"
+         font-size="14"
+         id="text230"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la112335215"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s112335215"
+       d="m 1339.9993,749.9999 h 170.0002 V 639.99976"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <path
+       id="s85279657"
+       d="m 1517.7301,649.17786 -7.7306,-9.1781 -7.7306,9.1781"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t112335215">
+      <text
+         xml:space="preserve"
+         x="1483.9995"
+         y="768.78601"
+         font-size="14"
+         id="text236"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000">No</text>
+    </g>
+  </g>
+  <g
+     id="la141481596"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s141481596"
+       d="M 660,620 C 880.174,783.30133 773.7224,469.69772 860,500"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:7, 7" />
+    <path
+       id="s39943470"
+       d="M 848.77875,504.25244 860,500 853.90216,489.6648"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t141481596">
+      <text
+         xml:space="preserve"
+         x="814.21118"
+         y="628.66077"
+         font-size="14"
+         id="text242"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+  <g
+     id="la208882437"
+     transform="translate(0,-10.99976)">
+    <path
+       id="s208882437"
+       d="m 960,280 c 33.2597,78.51578 -347.80164,38.00607 -100,120"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:7, 7" />
+    <path
+       id="s121274575"
+       d="M 848.85803,404.45612 860,400 853.71497,389.77756"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2" />
+    <g
+       id="t208882437">
+      <text
+         xml:space="preserve"
+         x="825.54675"
+         y="344.19177"
+         font-size="14"
+         id="text248"
+         style="font-size:14px;font-family:Sans, Helvetica;fill:#000000" />
+    </g>
+  </g>
+</svg>

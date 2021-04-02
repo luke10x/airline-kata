@@ -1,15 +1,14 @@
 # BDD Kata in TypeScript
 
-Design your *Domain Layer* by example,
- using BDD.
+Design your *Domain Layer* by example, using BDD.
 Use Gherkin as a *Common Language*,
- to write *User Stories* and *Example Scenarios*.
+to write *User Stories* and *Example Scenarios*.
 Follow the Design/Specify/Implement pattern,
  to drive your process:
 
-1. **Design** your *Domain Layer* by translating the *Common Language* of into   code. Use [DDD building blocks][ddd-building-blocks] to express your *Domain Layer*.
-2. **👆 Specify** the behaviors of the Building Blocks using Jest.
-3. **Implement** the Building Blocks using the specifications.
+1. **📝 Design** your *Domain Layer* by translating the *Common Language* of into code. Use [DDD building blocks][ddd-building-blocks] to express your *Domain Layer*.
+2. **💬 Specify** the behaviors of the Building Blocks using Jest.
+3. **✅ Implement** the Building Blocks using the specifications.
 
 ## Guided Kata
 
@@ -41,12 +40,16 @@ Then add missing imports:
 
     import { Given, When, Then } from '@cucumber/cucumber';
 
+---
+
 ### 1. There is a flight...
 
     Given a flight "XX4029" flies from the "LHR" to "JFK" route`
 
-How to use `defineParameterType` to bind primitive values from the *Example*
+In this part you will learn:
+- How to use `defineParameterType` to bind primitive values from the *Example*
 as [Domain Layer][domain.ts] types in *Executable Specification*.
+- How to introduce a Flight object that can be shared across different *Steps*.
 
 #### 1.1. Define FlightNumber as a Parameter Type
 
@@ -71,7 +74,7 @@ Should throw error with "", "1000XX", "XX".
 
 ✅ Check if it matches regex `/^[A-Z]{2}\d{1,4}$/`.
 
-#### 1.2. Define FlightNumber as a Parameter Type
+#### 1.2. Define Airport as a Parameter Type
 
 `Airport` must be used in the signature of *Step Definition* in the *Executable Specification*.
 
@@ -126,6 +129,8 @@ Notice, we don't use calls to constructor, but static factory methods instead.
 💬 Specify [Flight > can be build with a flight number and a route][Flight.spec.ts]
 
 ✅ Also trivial implementation, but don't forget to define the constructor as private.
+
+---
 
 ### 2. There is a list of fares...
 

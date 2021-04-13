@@ -1,8 +1,11 @@
-install:
-	docker-compose run --rm fcc "npm install"
+up:
+	docker-compose up -d --build --force-recreate
 
-shell:
-	docker-compose run --rm --service-ports fcc "bash"
+into:
+	docker-compose exec ticketsrv "bash"
+
+down:
+	docker-compose down --remove-orphans
 
 unrootify:
 	sudo chown -R $$(id -u):$$(id -g) .

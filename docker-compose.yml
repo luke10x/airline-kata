@@ -1,9 +1,10 @@
 version: "3.6"
 services:
 
-  fcc:
+  ticketsrv:
     image: node
     volumes:
+      - "./docker/profile:/root/.bashrc"
       - "./ticket-service:/mnt/ticket-service"
     working_dir: "/mnt/ticket-service"
     entrypoint: "/bin/bash -c"

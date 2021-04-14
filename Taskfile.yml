@@ -1,0 +1,24 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  up:
+    cmds:
+      - docker-compose up -d --build --force-recreate
+
+  lazy-up:
+    cmds:
+      - task up
+    status:
+      - test -n "$(docker-compose ps -q ticketsrv)"
+
+  down:
+    cmds:
+      - docker-compose down
+
+  default:
+    deps: [lazy-up]
+    cmds:
+      - docker-compose exec ticketsrv bash 
+    silent: true

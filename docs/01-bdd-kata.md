@@ -10,6 +10,9 @@ Follow the Design/Specify/Implement pattern,
 2. **💬 Specify** the behaviors of the Building Blocks using Jest.
 3. **✅ Implement** the Building Blocks using the specifications.
 
+This kata is build around a sample feature from
+Ciaran McNulty's talk about "[Driving Design through Examples][design-through-examples]"
+
 ## Guided Kata
 
 This repository contains code written while exercising
@@ -460,4 +463,5 @@ In the beginning of this Kata, we intentionally did not exactly follow the diagr
 [Points.ts]: ../ticket-service/src/domain/Points.ts
 [Points.spec.ts]: ../ticket-service/src/domain/Points.spec.ts
 
+[design-through-examples]: https://www.youtube.com/watch?v=VAGVqDFVCNs
 [ddd-building-blocks]: https://en.wikipedia.org/wiki/Domain-driven_design#Building_blocks

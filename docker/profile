@@ -1,1 +1,1 @@
-PS1='\e[33;1mdev@10X: \e[34m\W $\e[0m '
+PS1='\e[33;1mluke@10X \e[34m\W $\e[0m '

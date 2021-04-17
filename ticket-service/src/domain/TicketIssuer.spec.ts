@@ -8,7 +8,7 @@ import { Route } from './Route';
 import { Ticket } from './Ticket';
 import { TicketIssuer } from './TicketIssuer';
 
-describe('TickerIssuer', () => {
+describe('TicketIssuer', () => {
   const fareList = stubInterface<FareList>();
   fareList.findFareFor
     .withArgs(Route.fromTo(Airport.fromCode('JFK'), Airport.fromCode('LHR')))

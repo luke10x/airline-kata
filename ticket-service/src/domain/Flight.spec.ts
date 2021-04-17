@@ -7,7 +7,7 @@ describe('Flight', () => {
   const flightNumber = FlightNumber.fromCode('XX4029');
   const route = Route.fromTo(Airport.fromCode('LHR'), Airport.fromCode('JFK'));
 
-  it('can be build with a flight number and a route', () => {
+  it('can be built with a flight number and a route', () => {
     expect(
       (): Flight => Flight.withFlightNumberAndRoute(flightNumber, route),
     ).not.toThrow();

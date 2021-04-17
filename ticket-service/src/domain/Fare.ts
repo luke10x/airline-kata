@@ -4,7 +4,7 @@ export class Fare {
   private constructor(private minorUnits: bigint) {}
 
   static fromString(value: string): Fare {
-    if (!/^[\d]*\.\d\d$/.test(value)) {
+    if (!/^\d*\.\d\d$/.test(value)) {
       throw new Error('Bad fare format ' + value);
     }
     return new Fare(BigInt(parseFloat(value) * 100));
@@ -19,6 +19,6 @@ export class Fare {
   }
 
   getPoints(): Points {
-    return Points.fromString(BigInt(Number(this.minorUnits) / 100).toString());
+    return Points.fromString((Number(this.minorUnits) / 100).toString());
   }
 }

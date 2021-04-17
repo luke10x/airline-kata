@@ -12,7 +12,7 @@ import { TicketIssuer } from '../domain/TicketIssuer';
 import { Points } from '../domain/Points';
 
 let flight: Flight;
-let fareList: FareList;
+const fareList: FareList = new MemoryFareList();
 let ticket: Ticket;
 
 defineParameterType({
@@ -51,7 +51,6 @@ Given(
   'the current listed fare for the {Airport} to {Airport} is ${Fare}',
   (departure: Airport, destination: Airport, fare: Fare) => {
     const route = Route.fromTo(departure, destination);
-    fareList = new MemoryFareList();
     fareList.listFare(route, fare);
   },
 );

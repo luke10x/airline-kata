@@ -10,7 +10,7 @@ export class MemoryFareList implements FareList {
   }
 
   findFareFor(route: Route): Fare {
-    const fare: Fare = this.fares[route.asString()];
+    const fare = this.fares[route.asString()];
     if (!fare) {
       throw new Error(`Cannot find fare: ${route.asString()}`);
     }
